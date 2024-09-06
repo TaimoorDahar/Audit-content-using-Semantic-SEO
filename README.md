@@ -1,4 +1,4 @@
-# SEO Content Analyzer
+# SEO Content Analyzer Using Semantic SEO
 
 ## Description
 
@@ -30,11 +30,42 @@ The SEO Content Analyzer is a powerful Python script that performs semantic anal
 ## Setup
 
 1. Clone this repository
-2. Install required packages: `pip install -r requirements.txt`
-3. Create a `.env` file in the project root and add your OpenAI API key:
+2. Create and activate a virtual environment (steps below for Windows and Ubuntu users)
+3. Install required packages: `pip install -r requirements.txt`
+4. Create a `.env` file in the project root and add your OpenAI API key:
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
+
+### Virtual Environment Setup
+
+#### For Windows:
+1. Open Command Prompt and navigate to the project directory.
+2. Create a virtual environment:
+   ```sh
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   ```sh
+   venv\Scripts\activate
+   ```
+4. You should see `(venv)` in your command prompt indicating the virtual environment is activated.
+
+#### For Ubuntu:
+1. Open a terminal and navigate to the project directory.
+2. Install `python3-venv` if you haven't already:
+   ```sh
+   sudo apt install python3-venv
+   ```
+3. Create a virtual environment:
+   ```sh
+   python3 -m venv venv
+   ```
+4. Activate the virtual environment:
+   ```sh
+   source venv/bin/activate
+   ```
+5. You should see `(venv)` in your terminal indicating the virtual environment is activated.
 
 ## Usage
 
